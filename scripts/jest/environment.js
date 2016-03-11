@@ -1,3 +1,2 @@
-require('core-js/es6');
-
 global.__DEV__ = true;
+global.Promise = require.requireActual('Promise');

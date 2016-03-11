@@ -25,9 +25,11 @@
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
+    "babel-jest": "^9.0.2",
     "babel-plugin-syntax-flow": "^6.5.0",
     "babel-plugin-syntax-object-rest-spread": "^6.5.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.5.0",
+    "babel-polyfill": "^6.7.2",
     "babel-preset-fbjs": "file:babel-preset",
     "del": "^2.2.0",
     "eslint": "~2.2.0",
@@ -64,7 +66,6 @@
       "/node_modules/"
     ],
     "rootDir": "",
-    "scriptPreprocessor": "node_modules/fbjs-scripts/jest/preprocessor.js",
     "setupEnvScriptFile": "node_modules/fbjs-scripts/jest/environment.js",
     "testPathDirs": [
       "<rootDir>/src"

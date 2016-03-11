@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
+    "babel-types": "^6.7.2",
     "jest-cli": "^0.9.1"
   },
   "jest": {
